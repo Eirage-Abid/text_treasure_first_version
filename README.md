@@ -67,8 +67,11 @@ View Book Screen
 # Future Improvements
 
 ✨ Dark Mode for better reading comfort.
+
 📥 Offline Book Download & Reading.
+
 🌍 Multi-language book support.
+
 🔎 Advanced Search & Filters for books.
 
 # License
