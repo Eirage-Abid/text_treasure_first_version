@@ -14,11 +14,12 @@ class AppRoutes {
   static Map<String, WidgetBuilder> getRoutes() {
     return {
       '/': (context) => OnboardingScreen(),
+       'signup': (context) => SignUpScreen(),
+      'login': (context) => LoginScreen(),
       'library': (context) => LibraryScreen(),
       'mylibrary': (context) => MyLibraryScreen(),
       'home': (context) => HomeScreen(),
-     // 'signup': (context) => SignUpScreen(),
-      //'login': (context) => LoginScreen(),
+
 
       // New map screen
     };

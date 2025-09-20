@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:text_treasure_first_version/Screens/home_screen.dart';
+import 'package:text_treasure_first_version/Screens/library_screen.dart';
+import 'package:text_treasure_first_version/Screens/my_library.dart';
 import 'package:text_treasure_first_version/Screens/signup-screen.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -94,7 +96,7 @@ class LoginScreen extends StatelessWidget {
             // Sign In Button
             ElevatedButton(
               onPressed: () {
-      Navigator.push(context, MaterialPageRoute(builder: (context) => HomeScreen()));
+      Navigator.push(context, MaterialPageRoute(builder: (context) => LibraryScreen()));
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor: Colors.blue[900],

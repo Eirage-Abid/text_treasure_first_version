@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:text_treasure_first_version/Screens/home_screen.dart';
 import 'package:text_treasure_first_version/Screens/library_screen.dart';
 import 'package:text_treasure_first_version/screens/onboarding/onboarding_page.dart';
 import 'package:text_treasure_first_version/widgets/custom_button.dart';
@@ -40,8 +41,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       // Navigate to the login screen when "Continue" is pressed
       Navigator.pushReplacement(
         context,
-        //MaterialPageRoute(builder: (context) => LoginScreen()),
-        MaterialPageRoute(builder: (context) => LibraryScreen()),
+        MaterialPageRoute(builder: (context) => LoginScreen()),
+       // MaterialPageRoute(builder: (context) => HomeScreen()),
+       // MaterialPageRoute(builder: (context) => LibraryScreen()),
       );
     } else {
       // Move to the next page
@@ -55,8 +57,9 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   void _navigateToLogin() {
     Navigator.pushReplacement(
       context,
-      //MaterialPageRoute(builder: (context) => LoginScreen()),
-      MaterialPageRoute(builder: (context) => LibraryScreen()),
+      MaterialPageRoute(builder: (context) => LoginScreen()),
+     // MaterialPageRoute(builder: (context) => HomeScreen()),
+     // MaterialPageRoute(builder: (context) => LibraryScreen()),
     );
   }
   /*

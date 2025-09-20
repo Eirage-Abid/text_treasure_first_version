@@ -1,51 +1,13 @@
 {
   "project_info": {
-    "project_number": "123688487609",
-    "project_id": "flutter-authentication-s-38b84",
-    "storage_bucket": "flutter-authentication-s-38b84.firebasestorage.app"
+    "project_number": "807768064494",
+    "project_id": "grocify-d528a",
+    "storage_bucket": "grocify-d528a.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:123688487609:android:f7ea836a330e2e28a4a968",
-        "android_client_info": {
-          "package_name": "com.example.authentication_system_flutter"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCM1qXwHBGZnxBZrdItMPQGZT6AewsqAZE"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:123688487609:android:95f5a2f495fc704ca4a968",
-        "android_client_info": {
-          "package_name": "com.example.flutter_authentication_system"
-        }
-      },
-      "oauth_client": [],
-      "api_key": [
-        {
-          "current_key": "AIzaSyCM1qXwHBGZnxBZrdItMPQGZT6AewsqAZE"
-        }
-      ],
-      "services": {
-        "appinvite_service": {
-          "other_platform_oauth_client": []
-        }
-      }
-    },
-    {
-      "client_info": {
-        "mobilesdk_app_id": "1:123688487609:android:fa7f3b02cfc12627a4a968",
+        "mobilesdk_app_id": "1:807768064494:android:62bf2003aa4fa22e194eff",
         "android_client_info": {
           "package_name": "com.example.text_treasure_first_version"
         }
@@ -53,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCM1qXwHBGZnxBZrdItMPQGZT6AewsqAZE"
+          "current_key": "AIzaSyCds9Ui9--2Ea6fkuJad6aj9k7sbOIgc0c"
         }
       ],
       "services": {
