@@ -1,16 +1,76 @@
-# text_treasure_first_version
+# Text Treasure – E-Book Reading Application
+Text Treasure is an e-book reading mobile application built with Flutter. It provides a simple, distraction-free reading experience with essential features like onboarding, authentication, a dashboard, and book viewing.
 
-A new Flutter project.
+# Features
 
-## Getting Started
+📖 Onboarding Screens – Guide new users through the app.
 
-This project is a starting point for a Flutter application.
+🔑 Authentication – Login and Sign-Up using Firebase.
 
-A few resources to get you started if this is your first Flutter project:
+📚 Dashboard – Access to different sections such as:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Library (saved books)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Browse Books
+
+Favorites
+
+Profile
+
+📕 View Book Screen – Read books with a clean interface, including book title, author, description, and reading options.
+
+❤️ Favorites – Mark and save favorite books for easy access.
+
+# Tech Stack
+
+Frontend: Flutter (Dart)
+
+Backend: Firebase (Authentication, Firestore/Realtime Database if needed)
+
+Storage: Firebase Storage (for book files or covers, if used)
+
+Authentication: Firebase Auth
+
+# Project Architecture
+
+State Management: (Provider / Riverpod / BLoC – whichever you used)
+
+Folder Structure:
+
+/lib → UI Screens, Widgets, Routes, Models
+
+/assets → Book covers, illustrations, icons
+
+/services → Firebase integration
+
+# Getting Started
+
+Clone the repository:
+git clone https://github.com/Eirage-Abid/text_treasure.git
+
+Install dependencies:
+flutter pub get
+
+Run the app:
+flutter run
+
+# Screenshots
+
+Onboarding Screen
+
+Login / Sign-Up Screen
+
+Dashboard
+
+View Book Screen
+
+# Future Improvements
+
+✨ Dark Mode for better reading comfort.
+📥 Offline Book Download & Reading.
+🌍 Multi-language book support.
+🔎 Advanced Search & Filters for books.
+
+# License
+
+MIT License © 2025 Text Treasure Team
